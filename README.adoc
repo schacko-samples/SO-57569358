@@ -1,3 +1,5 @@
+This app contains the solution for this SO problem: https://stackoverflow.com/questions/57569358/how-to-use-kafka-streams-binder-with-functional-style-and-di
+
 === Running the app:
 
 Go to the root of the repository.
