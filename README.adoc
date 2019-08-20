@@ -1,0 +1,20 @@
+=== Running the app:
+
+Go to the root of the repository.
+
+Start Kafka broker:
+`docker-compose up -d`
+
+`./mvnw clean package`
+
+Start the application: `java -jar so-57569358-0.0.1-SNAPSHOT.jar --spring.cloud.stream.bindings.so57569358_in.destination=input-topic`
+
+If you are running from the IDE, appropriately pass the destination property.
+
+Produce data to the topic. Watch for the console log.
+
+=== Cleaning up:
+
+Stop the application.
+
+`docker-compose down`
